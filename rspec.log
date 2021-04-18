@@ -1,0 +1,55 @@
+
+An error occurred while loading ./spec/spec 2/models/book_spec.rb.[31m - Did you mean?
+                    rspec ./spec/spec 2/models/user_spec.rb
+[0m
+[31mFailure/Error: [0mrequire [31m[1;31m'[0m[31mrails_helper[1;31m'[0m[31m[0m[0m
+[31m[0m
+[31mLoadError:[0m
+[31m  cannot load such file -- rails_helper[0m
+[36m# ./spec/spec 2/models/book_spec.rb:1:in `require'[0m
+[36m# ./spec/spec 2/models/book_spec.rb:1:in `<top (required)>'[0m
+
+An error occurred while loading ./spec/spec 2/models/user_spec.rb.[31m - Did you mean?
+                    rspec ./spec/spec 2/models/book_spec.rb
+[0m
+[31mFailure/Error: [0mrequire [31m[1;31m'[0m[31mrails_helper[1;31m'[0m[31m[0m[0m
+[31m[0m
+[31mLoadError:[0m
+[31m  cannot load such file -- rails_helper[0m
+[36m# ./spec/spec 2/models/user_spec.rb:1:in `require'[0m
+[36m# ./spec/spec 2/models/user_spec.rb:1:in `<top (required)>'[0m
+
+An error occurred while loading ./spec/spec 2/system/01_before_login_spec.rb.[31m - Did you mean?
+                    rspec ./spec/spec 2/system/02_after_login_spec.rb
+[0m
+[31mFailure/Error: [0mrequire [31m[1;31m'[0m[31mrails_helper[1;31m'[0m[31m[0m[0m
+[31m[0m
+[31mLoadError:[0m
+[31m  cannot load such file -- rails_helper[0m
+[36m# ./spec/spec 2/system/01_before_login_spec.rb:1:in `require'[0m
+[36m# ./spec/spec 2/system/01_before_login_spec.rb:1:in `<top (required)>'[0m
+
+An error occurred while loading ./spec/spec 2/system/02_after_login_spec.rb.[31m - Did you mean?
+                    rspec ./spec/spec 2/system/01_before_login_spec.rb
+[0m
+[31mFailure/Error: [0mrequire [31m[1;31m'[0m[31mrails_helper[1;31m'[0m[31m[0m[0m
+[31m[0m
+[31mLoadError:[0m
+[31m  cannot load such file -- rails_helper[0m
+[36m# ./spec/spec 2/system/02_after_login_spec.rb:1:in `require'[0m
+[36m# ./spec/spec 2/system/02_after_login_spec.rb:1:in `<top (required)>'[0m
+
+An error occurred while loading ./spec/spec 2/system/03_finishing_touches_spec.rb.[31m - Did you mean?
+                    rspec ./spec/spec 2/system/02_after_login_spec.rb
+[0m
+[31mFailure/Error: [0mrequire [31m[1;31m'[0m[31mrails_helper[1;31m'[0m[31m[0m[0m
+[31m[0m
+[31mLoadError:[0m
+[31m  cannot load such file -- rails_helper[0m
+[36m# ./spec/spec 2/system/03_finishing_touches_spec.rb:1:in `require'[0m
+[36m# ./spec/spec 2/system/03_finishing_touches_spec.rb:1:in `<top (required)>'[0m
+No examples found.
+
+Finished in 0.00003 seconds (files took 0.22873 seconds to load)
+[31m0 examples, 0 failures, 5 errors occurred outside of examples[0m
+
